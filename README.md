@@ -9,7 +9,7 @@ $ sudo apt install -y markdown tidy
 $ ./gen_html.sh
 ```
 
-デプロイサイト
+Deploy Site
 ------------------------------
 
 [桜大学情報システムズ特別講義](http://dandydot.no-ip.biz:8080/~dot/presen/MeioUniv/)
