@@ -1,0 +1,27 @@
+blockdiag {
+  node_height = 50;
+  default_fontsize = 16;
+
+  // ここから作業
+  begin [shape = beginpoint];
+  タスク1 [shape = flowchart.input ];
+  タスク2 [shape = flowchart.input ];
+  タスク3 [shape = flowchart.input ];
+  dots [shape = dots];
+  // ここまで作業
+
+  // ここから成果物
+  成果物1 [shape = note];
+  成果物2 [shape = note];
+  成果物3 [shape = note];
+  // ここまで成果物
+
+  // ここからフロー
+  begin -> タスク1 -> 成果物1 -> タスク2 -> 成果物2 ->  タスク3 -> 成果物3 -> dots;
+  // ここまでフロー
+
+  // ここから折り返し設定
+  成果物1 -> タスク2 [folded];
+  成果物2 -> タスク3 [folded];
+  // ここまで折り返し設定
+}

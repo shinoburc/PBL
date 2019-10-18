@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"><meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>jQuery</title>
+  <script type="text/javascript">
+$(function(){
+    var click_count = 0;
+    var enter_count = 0;
+
+    $('#click_me').click(function() {
+          click_count++;
+          $('#click_count').text(click_count);
+    });
+
+    /* $('#enter_me').keypress(function(e) { */
+    $('#enter_me').keyup(function(e) {
+          if ( e.which == 13 ) {
+              enter_count++;
+              $('#enter_count').text(enter_count);
+              return false;
+          }
+    });
+});
+  </script>
+</head>
+
+<body>
+  <h1>jQuery</h1>
+
+  <input type="button" id="click_me" value="click me"/>
+  <input type="button" id="enter_me" value="enter me"/>
+
+  <p>
+    Click count is: <span id="click_count">0</span>
+  </p>
+  <p>
+    Enter count is: <span id="enter_count">0</span>
+  </p>
+</body>
+</html>
