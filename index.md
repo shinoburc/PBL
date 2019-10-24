@@ -142,6 +142,8 @@
         - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
 - コミュニケーションツール
     - [Slack](https://slack.com)
+- 時間の測定 
+    - [web-timer](https://web-timer-vue.herokuapp.com)
 - 流れ
     - ![作業の流れ](images/overview.png)
 
@@ -195,8 +197,10 @@
 - (演習)
     - 開発テーマを決定する
     - ペルソナを定義する
+    - カスタマージャーニーマップ
     - (成果物)
         - 「ペルソナのプロフィール」
+        - 「カスタマージャーニーマップ」
     - (サンプル)
         - [Twitter利用者のペルソナプロフィール](persona/Twitter_Persona.html)
         - [沖縄に来る観光客のペルソナプロフィール](persona/Tourist.pdf)
@@ -204,7 +208,7 @@
 
 - (演習)
     - 開発テーマで登場する情報を全て洗い出して列挙する
-        - 「ペルソナのプロフィール」を考慮しながらブレインストーミングを行う
+        - 「ペルソナのプロフィール」と「カスタマージャーニーマップ」を考慮しながらブレインストーミングを行う
         - 挙がった情報を列挙する
     - 洗い出した情報を整理・分類する
         - 整理
@@ -297,7 +301,9 @@
 - 実装
     - 開発ツール
         - [Monaca](https://ja.monaca.io/)
-        - [Monaca Docs - サンプル&Tips](https://docs.monaca.io/ja/sampleapp/)
+            - [Monaca Docs - サンプル&Tips](https://docs.monaca.io/ja/sampleapp/)
+        - [netlify](https://www.netlify.com/)
+        - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
     - 参考
         - [JavaScript DOM の説明](../JavaScript-DOM)
         - [Monacaサンプルアプリの改変例](../monaca)
@@ -456,6 +462,7 @@
 - 最終確認
 
 <a name="IT">
+
 ## IT津梁まつりブース出展
 </a>
 
