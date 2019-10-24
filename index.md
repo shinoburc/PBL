@@ -267,7 +267,7 @@
                 - タスクが完了したら付箋紙を「Done」に移動する
             - (サンプル)
                 - [Wikipedia:かんばん](https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%93%E3%81%B0%E3%82%93_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))
-    - [カレーライスのタスク、WBS&かんばんの例](files/example_of_task_wbs_sign.pptx)
+    - [カレーライスのタスク、WBS&かんばんの例](https://drive.google.com/open?id=1QjkHgo0ziPPHXFoubqrFXdegAM_hJE_3)
 - (演習)
     - 疑似プロジェクトの「かんばん」を作成し、タスクとタスクの関係を明らかにする
     - 以下いずれかのテーマを選択し、全てのタスクを洗い出して「かんばん」を作成する
