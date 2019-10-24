@@ -4,7 +4,8 @@
 
 ## アイスブレーク
 
-- [講師紹介](../profile)
+- [メイン講師紹介](profile/tomoyose.md)
+- [サブ講師紹介](../profile)
 - [自己紹介](../self-introduction)
 - [オープナ](../opener)
 
