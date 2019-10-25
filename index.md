@@ -4,17 +4,21 @@
 
 ## アイスブレーク
 
-- [メイン講師紹介](profile/tomoyose.md)
-- [サブ講師紹介](../profile)
-- [自己紹介](../self-introduction)
-- [オープナ](../opener)
+- [メイン講師紹介](http://34.83.205.13:8080/profile/)
+- [サブ講師紹介](http://dandydot.no-ip.biz:8080/~dot/presen/profile/)
+- [自己紹介](http://dandydot.no-ip.biz:8080/~dot/presen/self-introduction/)
+- [オープナ](http://dandydot.no-ip.biz:8080/~dot/presen/opener/)
+- [web-timer](https://web-timer-vue.herokuapp.com)
 
 ## 講義の説明
 
 - 目的
+    - 課題解決型学習を通して社会人基礎力を身につける
     - チーム開発を経験する
     - 企画を実際に形にする
     - ユーザ・お客様に製品をアピールする
+- 本講義でのルール
+    - 合意した内容に変更が生じる場合には事前に報告して調整する
 - やること
     - 顧客が抱える課題を解決するための開発テーマを企画する
     - 企画を元に開発テーマに沿った情報を洗い出す
@@ -34,6 +38,7 @@
 - 心がけて欲しいこと
     - 何かを考えたり判断する場合は上記「やること」を前提にする
     - 演習における気づきを共有する
+        - Slack を使って共有する
     - PDCAを小さく沢山繰り返す
         - Plan（計画）→ Do（実行）→ Check（評価）→ Action（改善）
     - インターネット上の情報を自ら活用する
@@ -52,6 +57,7 @@
 ## スケジュール
 
 - [開発実習1回目](#day1)(11月7日)
+    - 株式会社オーシーシーの紹介
     - 企画立案①：課題（ニーズ）に対応した企画立案＆チーム編成
     - 企画立案②： チーム毎の企画立案
     - 今後のスケジュール説明
@@ -136,14 +142,14 @@
     - モックアップツール
         - [Atomic](https://atomic.io/)
         - [Fluid](https://www.fluidui.com/)
-    - 開発ツール
-        - [Monaca](https://ja.monaca.io/)
+    - 実行環境
         - [netlify](https://www.netlify.com/)
         - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
+    - 開発ツール
+        - [Monaca](https://ja.monaca.io/)
+        - [Unity](https://unity.com/ja)
 - コミュニケーションツール
     - [Slack](https://slack.com)
-- 時間の測定 
-    - [web-timer](https://web-timer-vue.herokuapp.com)
 - 流れ
     - ![作業の流れ](images/overview.png)
 
@@ -268,6 +274,9 @@
             - (サンプル)
                 - [Wikipedia:かんばん](https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%93%E3%81%B0%E3%82%93_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))
     - [カレーライスのタスク、WBS&かんばんの例](https://drive.google.com/file/d/1PnoN6_89S5L46mpLQd1Sa3N6tZ5nVVV2/view?usp=sharing)
+
+    <iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212547&authkey=AGAJ2I4nEDaxbow&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+
 - (演習)
     - 疑似プロジェクトの「かんばん」を作成し、タスクとタスクの関係を明らかにする
     - 以下いずれかのテーマを選択し、全てのタスクを洗い出して「かんばん」を作成する
