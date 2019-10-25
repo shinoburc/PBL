@@ -275,7 +275,7 @@
                 - [Wikipedia:かんばん](https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%93%E3%81%B0%E3%82%93_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))
     - [カレーライスのタスク、WBS&かんばんの例](https://drive.google.com/file/d/1PnoN6_89S5L46mpLQd1Sa3N6tZ5nVVV2/view?usp=sharing)
 
-    <iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212547&authkey=AGAJ2I4nEDaxbow&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212547&authkey=AGAJ2I4nEDaxbow&em=2" width="802" height="627" frameborder="0" scrolling="no"></iframe>
 
 - (演習)
     - 疑似プロジェクトの「かんばん」を作成し、タスクとタスクの関係を明らかにする
