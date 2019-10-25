@@ -173,6 +173,11 @@
 
 - 情報設計の流れ
     1. 開発テーマを決定する
+        - 2018年の開発テーマ
+            - [最新技術を用いたEntertainment](https://drive.google.com/file/d/1I3WhRbveVagUacXxukvsmIYhNHMYKs9_/view?usp=sharing)
+                - ARを使ってのスタンプラリー
+            - [Community siteの作成](https://drive.google.com/file/d/1FNbWV_BDzpRp2BAFhRizbIne7QUG8dDD/view?usp=sharing)
+                - 観光客の為のコミュニケーションサイト
     1. ペルソナを定義する
         - 誰に対して価値を提供するのかを想定し、描き出した象徴的な人物像のことを「[ペルソナ](https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A)」という
         - ![価値とペルソナ](images/ValuePersona01.png)
@@ -273,8 +278,8 @@
                 - タスクが完了したら付箋紙を「Done」に移動する
             - (サンプル)
                 - [Wikipedia:かんばん](https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%93%E3%81%B0%E3%82%93_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))
-
-<iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212547&authkey=AGAJ2I4nEDaxbow&em=2" width="1402" height="1327" frameborder="0" scrolling="no"></iframe>
+        - カレーライスのタスク＆WBS、かんばんの例
+        <iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212547&authkey=AGAJ2I4nEDaxbow&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
 
 - (演習)
     - 疑似プロジェクトの「かんばん」を作成し、タスクとタスクの関係を明らかにする
@@ -306,12 +311,15 @@
         - [Fluid](https://www.fluidui.com/)
         - [NinjaMock](https://ninjamock.com/)
         - 紙(紙芝居)
+- 環境
+    - 実行環境
+        - [netlify](https://www.netlify.com/)
+        - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
 - 実装
     - 開発ツール
         - [Monaca](https://ja.monaca.io/)
             - [Monaca Docs - サンプル&Tips](https://docs.monaca.io/ja/sampleapp/)
-        - [netlify](https://www.netlify.com/)
-        - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
+        - [Unity](https://unity.com/ja)
     - 参考
         - [JavaScript DOM の説明](../JavaScript-DOM)
         - [Monacaサンプルアプリの改変例](../monaca)
