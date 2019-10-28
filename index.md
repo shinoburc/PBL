@@ -1,7 +1,7 @@
 
 # 情報システムズ特別講義
 
-# このページのURLは [https://goo.gl/hujACA](https://goo.gl/hujACA) です。
+# このページのURLは [http://bit.ly/2PreCtQ](http://bit.ly/2PreCtQ) です。
 
 ## アイスブレーク
 
