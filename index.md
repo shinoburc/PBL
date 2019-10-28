@@ -143,7 +143,7 @@
         - [Atomic](https://atomic.io/)
         - [Fluid](https://www.fluidui.com/)
     - 実行環境
-        - [netlify](https://www.netlify.com/)
+        - [Netlify](https://www.netlify.com/)
         - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
     - 開発ツール
         - [Monaca](https://ja.monaca.io/)
@@ -314,7 +314,7 @@
         - 紙(紙芝居)
 - 環境
     - 実行環境
-        - [netlify](https://www.netlify.com/)
+        - [Netlify](https://www.netlify.com/)
         - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
 - 実装
     - 開発ツール
