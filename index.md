@@ -4,10 +4,10 @@
 
 ## アイスブレーク
 
-- [メイン講師紹介](http://34.83.205.13:8080/profile/)
-- [サブ講師紹介](http://dandydot.no-ip.biz:8080/~dot/presen/profile/)
-- [自己紹介](http://dandydot.no-ip.biz:8080/~dot/presen/self-introduction/)
-- [オープナ](http://dandydot.no-ip.biz:8080/~dot/presen/opener/)
+- [メイン講師紹介](https://34.83.205.13/profile/)
+- [サブ講師紹介](https://dandydot.no-ip.biz/~dot/presen/profile/)
+- [自己紹介](https://dandydot.no-ip.biz/~dot/presen/self-introduction/)
+- [オープナ](https://dandydot.no-ip.biz/~dot/presen/opener/)
 - [web-timer](https://web-timer-vue.herokuapp.com)
 
 ## 講義の説明
