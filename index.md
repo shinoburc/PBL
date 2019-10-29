@@ -4,7 +4,7 @@
 
 ## アイスブレーク
 
-- [メイン講師紹介](https://34.83.205.13/profile/)
+- [メイン講師紹介](https://tomocoffee.ddns.net/profile/)
 - [サブ講師紹介](https://dandydot.no-ip.biz/~dot/presen/profile/)
 - [自己紹介](https://dandydot.no-ip.biz/~dot/presen/self-introduction/)
 - [オープナ](https://dandydot.no-ip.biz/~dot/presen/opener/)
