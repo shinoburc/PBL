@@ -2,7 +2,7 @@
 
 # このページのURLは [http://bit.ly/2PreCtQ](http://bit.ly/2PreCtQ) です。
 
-# 本講義の Slack URLは [https://meio-u-special.slack.com/](https://meio-u-special.slack.com/) です。
+# 本講義の Slack ワークスペースは [https://meio-u-special.slack.com/](https://meio-u-special.slack.com/) です。
 
 ## 株式会社OCCの紹介
 
