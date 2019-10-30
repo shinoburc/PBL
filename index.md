@@ -2,6 +2,10 @@
 
 # このページのURLは [http://bit.ly/2PreCtQ](http://bit.ly/2PreCtQ) です。
 
+1. 株式会社OCCの紹介
+
+<iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%212549&authkey=ANG8p9rrrbh1-Jg&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+
 ## アイスブレーク
 
 - [メイン講師紹介](https://tomocoffee.ddns.net/profile/)
