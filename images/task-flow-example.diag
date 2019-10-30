@@ -1,0 +1,27 @@
+blockdiag {
+  node_height = 50;
+  default_fontsize = 16;
+
+  // ここから作業
+  begin [shape = beginpoint];
+  カレーの食材を買ってくる [shape = flowchart.input ];
+  食材を切る [shape = flowchart.input ];
+  切った食材を煮込む [shape = flowchart.input ];
+  dots [shape = dots];
+  // ここまで作業
+
+  // ここから成果物
+  食材 [shape = note];
+  切った食材 [shape = note];
+  煮込んだ食材 [shape = note];
+  // ここまで成果物
+
+  // ここからフロー
+  begin -> カレーの食材を買ってくる -> 食材 -> 食材を切る -> 切った食材 ->  切った食材を煮込む -> 煮込んだ食材 -> dots;
+  // ここまでフロー
+
+  // ここから折り返し設定
+  食材 -> 食材を切る [folded];
+  切った食材 -> 切った食材を煮込む [folded];
+  // ここまで折り返し設定
+}
