@@ -1,6 +1,6 @@
 blockdiag {
   node_height = 50;
-  default_fontsize = 16;
+  default_fontsize = 12;
 
   // ここから作業
   begin [shape = beginpoint];
