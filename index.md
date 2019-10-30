@@ -63,6 +63,7 @@
         - 飛躍がないか?
         - 漏れがないか?
         - ![タスクの関係](images/task-flow.png)
+        - ![タスクの関係の例](images/task-flow-example.png)
 
 ## スケジュール
 
