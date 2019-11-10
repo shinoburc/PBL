@@ -12,4 +12,4 @@ $ ./gen_html.sh
 Deploy Site
 ------------------------------
 
-[桜大学情報システムズ特別講義](http://dandydot.no-ip.biz:8080/~dot/presen/MeioUniv/)
+[桜大学情報システムズ特別講義](https://dandydot.no-ip.biz/~dot/presen/MeioUniv/)
