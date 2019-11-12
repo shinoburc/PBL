@@ -248,7 +248,7 @@
             - [沖縄に来る観光客のペルソナプロフィール](persona/Tourist.pdf)
             - [和泉守兼定のペルソナプロフィール](persona/Izumi.html)
         - 「カスタマージャーニーマップ」
-	    - [カスタマージャーニーマップとは？作成する目的と作り方を解説します【無料テンプレートつき】](https://majisaka.site/custmer-journey-map/)
+	        - [カスタマージャーニーマップとは？作成する目的と作り方を解説します【無料テンプレートつき】](https://majisaka.site/custmer-journey-map/)
             - [マップを活用した事例](https://markezine.jp/article/detail/29298)
 
 - (演習)
