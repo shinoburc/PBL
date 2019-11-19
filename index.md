@@ -275,6 +275,8 @@
             - ![情報モデルの状態遷移のプロバイダ申し込み情報の例](images/InformationModelStateMachine02.png)
             - 情報モデルの状態遷移(CRUD: Create Read Update Delete)
             - ![情報モデルの状態遷移](images/InformationModelStateMachine.png)
+            - 情報モデルの状態遷移(駐車場と空き状況情報の例)
+            - ![駐車場と空き状況の状態遷移](images/InformationModelStateMachineParking.png)
                          
 - (演習)
     - 必要な画面を洗い出す
@@ -351,6 +353,8 @@
         - [Google Cloud Platform](https://console.cloud.google.com/?hl=ja)
 - 実装
     - 開発ツール
+        - [Bubble](https://bubble.io/)
+            - [ノーコードでウェブアプリが作れる！Bubble（バブル）の使い方](https://blog.nocodelab.jp/entry/2019/07/24/%E3%83%8E%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E4%BD%9C%E3%82%8C%E3%82%8B%EF%BC%81Bubble%EF%BC%88%E3%83%90%E3%83%96%E3%83%AB)
         - [Monaca](https://ja.monaca.io/)
             - [Monaca Docs - サンプル&Tips](https://docs.monaca.io/ja/sampleapp/)
         - [Unity](https://unity.com/ja)
