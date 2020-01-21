@@ -542,7 +542,7 @@
   - グラフや図を用いて、アンケート結果を見える化し、傾向やパターンを探る
       - (参考) [Excel・エクセル｜グラフの作り方・編集テクニック - Be Cool Users Office](http://www.becoolusers.com/excel/excel-graph.html)
       - (参考) [QC7つ道具](http://fk-plaza.jp/Solution/solu_qc7.htm)
-  - 目標値が達成されたかを判断する
+  - 今回の目標値である、200件のアンケート数が達成できたかを判断する
 - 考察
   - アンケート結果から分かったことをまとめる
 - 改善案策定
