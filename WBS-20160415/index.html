@@ -1,0 +1,114 @@
+<html>
+                <head>
+                                <title>WBS</title>
+                                <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+                                <!-- $Id$ -->
+                                <!-- Latest compiled and minified CSS -->
+                                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+                                <!-- Optional theme -->
+                                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+                                <!-- Latest compiled and minified JavaScript -->
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+                </head>
+                <body>
+                                <h1><br><span style="color: orange;font-size: 40px;">「WBS」</span></h1>
+
+                                <a href="index.html#content">content</a>
+
+                                <div id="content" style="margin-left: 10px;">
+                                <hr size="20" color="GREEN" NOSHADE>
+                                <a name="000"><span style="background-color: orange;">WBS</span></a>
+
+                                <p>
+                                プロジェクト等で必要なタスクを構造図で描いたものをWBSという。
+                            　　まず大日程を決めて、徐々に中日程・小日程にブレイクダウンしていく。
+                                適切にWBSを作成することで、スケジュールやコストが明らかになる。
+                                </p>
+
+                                <p>
+                                <span style="background-color: orange;">WBSの例</span>
+                                <table border="1">
+                                  <thead>
+                                    <td>タスク(Task)</td>
+                                    <td>期間(Duration)</td>
+                                    <td>先行タスク(Dependency)</td>
+                                    <td>リソース(Resource)</td>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>A</td>
+                                      <td>1</td>
+                                      <td></td>
+                                      <td>Saito</td>
+                                    </tr>
+                                    <tr>
+                                      <td>B</td>
+                                      <td>4</td>
+                                      <td>A</td>
+                                      <td>Saito</td>
+                                    </tr>
+                                    <tr>
+                                      <td>C</td>
+                                      <td>3</td>
+                                      <td>B</td>
+                                      <td>Saito</td>
+                                    </tr>
+                                    <tr>
+                                      <td>D</td>
+                                      <td>5</td>
+                                      <td>A</td>
+                                      <td>Miyagi</td>
+                                    </tr>
+                                    <tr>
+                                      <td>E</td>
+                                      <td>2</td>
+                                      <td>C,D</td>
+                                      <td>Saito</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                                WBSで定義すべき情報
+                                <ul>
+                                  <li>タスク(Task)</li>
+                                  <li>期間(Duration)</li>
+                                  <li>先行タスク(Dependency)</li>
+                                  <li>リソース(Resource)</li>
+                                </ul>
+                                上記を定義すると、以下も同時に定義される。
+                                <ul>
+                                  <li>スケジュール(Schedule) : 下図「WBS to Gantt chart」のようにWBSをGantt chartに展開すると分かる</li>
+                                  <li>コスト(Cost) : リソース×期間</li>
+                                  <li>タスクの余裕(Float Buffer) : 下図「WBS to PDM」のようにWBSをPDMに展開すると分かる</li>
+                                  <li>クリティカルパス(Ctical Path) : 下図「WBS to PDM」のようにWBSをPDMに展開すると分かる</li>
+                                </ul>
+
+                                <span style="background-color: orange;">WBS to PDM(Precedence Diagramming Method)</span>
+                                <p>
+                                <img src="images/PDM01.png" alt="PDM:Precedence Diagramming Method" />
+
+                                <p>
+                                <span style="background-color: orange;">WBS to Gantt chart</span>
+                                <p>
+                                <img src="images/WBS2GanttChart.JPG" alt="WBS to Gantt chart" />
+
+                                <p>
+                                <span style="background-color: orange;">WBS Application</span>
+                                <p>
+                                <ul>
+                                  <li><a href="https://www.microsoft.com/ja-jp/project/">Microsft Project</a>(デスクトップアプリケーションでは最もちゃんとしている。)</li>
+                                  <li><a href="https://www.projectlibre.com/">ProjectLibre</a>(OSS)</li>
+                                  <li>その他、RedmineなどWebアプリケーションを含めいろいろある</li>
+                                </ul>
+
+                                </div>
+
+                                <hr size="20" color="GREEN" NOSHADE>
+                                <a name="content">content</a>
+                                <ol>
+                                                <li><a href="index.html#000">WBS</a>
+                                </ol>
+                </body>
+</html>
