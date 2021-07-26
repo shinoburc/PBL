@@ -1,4 +1,4 @@
-名桜大学情報システムズ特別講義資料
+課題解決型学習資料
 ==============================
 
 Setup
@@ -12,4 +12,4 @@ $ ./gen_html.sh
 Deploy Site
 ------------------------------
 
-[桜大学情報システムズ特別講義](https://dandydot.no-ip.biz/~dot/presen/MeioUniv/)
+[課題解決型学習](https://tomo-tomo.ddns.net/PBL-Lecture/)
