@@ -333,22 +333,24 @@
 
 	- DBMSとは
 		- [データベース管理システム（DBMS）の役割](https://proengineer.internous.co.jp/content/columnfeature/6411#section103)
-	- DBMS を使わない場合
-		- 設計が独自使用になる。その結果設計に依存する。
 	- DBMS を使った場合
 		- DBMSはアクセスが標準化される
 		- クエリを使ってデータアクセスが高速化される
+	- DBMS を使わない場合
+		- 設計が独自使用になる。その結果設計に依存する。
 
 - 内部設計で行うこと  
 開発案件毎に違いはあるが、DBMSを使用するとき一般的に内部設計では以下の作業を行う。
 	- データベース設計
 		- データベースはデータを保持する箱であり、[永続性](http://mix.kumikomi.net/index.php/%E6%B0%B8%E7%B6%9A%E6%80%A7)をもつ。きれいに整理しておくことでデータの追加、変更、削除を行う際に容易になります([正規化](https://ja.wikipedia.org/wiki/%E6%AD%A3%E8%A6%8F%E5%8C%96))
+			- 正規化の手順は、第一正規化 → 第二正規化 → 第三正規化 の順です
 		- 同じデータの重複を省くことによって、変更があった際に一箇所だけを修正すればよくなります
 		- テーブル定義書
 			- 必要なテーブル名、それに関連する属性詳細を記述する
 		- ER図
-			- テーブル関の関係性を表した図
+			- 正規化した情報を元にテーブル関の関係性を表した図
 	- CRUD図
+		- [CRUD - Wikipedia](https://ja.wikipedia.org/wiki/CRUD)
 		- 処理を行うために必要な項目が画面レイアウトに含まれているか?
 		- 画面に表示する項目(画面仕様書)がDB項目(DB設計、ER図)に含まれているか? または計算によって表示(導出)可能か?
 	- 機能設計
@@ -360,28 +362,57 @@
 		- 初期設定
 			- 〇〇登録画面の〇〇日には今日の日付を初期設定。
 
-- 参考リンク集
-	- [そもそもデータベースとは？基礎から分かるデータベース入門](https://proengineer.internous.co.jp/content/columnfeature/6411#section103)
-	- [DB/SQL入門編 (全2レッスン)](https://paiza.jp/works/sql/primer)
-	- [初めてのデータベース設計](https://gihyo.jp/dev/feature/01/database/0001)
-	- [4ステップで作成する、DB論理設計の手順とチェックポイントまとめ](https://qiita.com/nishina555/items/a79ece1b54faf7240fac)
+- 参考リンク集 
+	- ドキュメント
+		- [そもそもデータベースとは？基礎から分かるデータベース入門](https://proengineer.internous.co.jp/content/columnfeature/6411#section103)
+		- [初めてのデータベース設計](https://gihyo.jp/dev/feature/01/database/0001)
+		- [4ステップで作成する、DB論理設計の手順とチェックポイントまとめ](https://qiita.com/nishina555/items/a79ece1b54faf7240fac)
+  		- [Codecademy](https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql?action=resume_content_item)
+  		- [Khan Academy](https://ja.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql)
+  		- [SQL - Progate](https://prog-8.com/languages/sql)
+  		- [Introduction to SQL - SQLBolt](https://sqlbolt.com/lesson/select_queries_introduction)
+  		- [MySQL入門編メニュー - bituse](https://bituse.info/mysql/)
+		- [ER図とは？書き方やテクニックをわかりやすく解説](https://products.sint.co.jp/ober/blog/create-er-diagram)
+		- [セブンイレブンのレシートから第三正規形を求める](https://qiita.com/riku-shiru/items/be7df6e2a02b3173438d)
+	- 動画学習サイト
+		- [データベースとは](https://www.youtube.com/watch?v=gGKM4dSDneA)
+		- [データモデル](https://www.youtube.com/watch?v=u24MeS4Q-M0)
+		- [PostgreSQLとはなにか？](https://dotinstall.com/lessons/basic_postgresql/26101)
+		- [SQL入門 レッスン](https://www.youtube.com/watch?v=j4kh9YBS7QU&list=PLXOP1_-wmgsAB9S0cgM2z3DCQTFoetEVB)
+  		- [SQL入門編2: SQLを仕事に使おう](https://paiza.jp/works/sql/primer/beginner-sql2)
+  		- [PostgreSQL入門 - ドットインストール](https://dotinstall.com/lessons/basic_postgresql)
+		- [DB/SQL入門編 (全2レッスン)](https://paiza.jp/works/sql/primer)
+		- [関係データベースで起こる問題](https://www.youtube.com/watch?v=2lMn6t3D1hw&feature=youtu.be)
+		- [正規化の目的](https://www.youtube.com/watch?v=nDmDKDrkwoM&feature=youtu.be)
+		- [主キー](https://www.youtube.com/watch?v=7a-2PqNg-_0)
+		- [第1正規形](https://www.youtube.com/watch?v=c2LdmWAslBw)
+		- [第2正規形](https://www.youtube.com/watch?v=1K6EM3woxms&feature=youtu.be)
+		- [第3正規形](https://www.youtube.com/watch?v=aYjxNQRQyKs)
 
 - (演習)
     - (タスク)
 		- 必要に応じて以下の4つを作成する。(DBMSを使用する場合)
 			- テーブル定義書
 			- ER図
+				- ER図作成ツール
+					- [a5m2](./software/a5m2_2.14.0_x64.zip) をクリックするとダウンロードできます。
 			- CRUD図
 			- 機能設計書
 		- DBMSを使用しない場合
 			- 正規化したデータ
+				- [JSON](https://ja.wikibooks.org/wiki/JSON) フォーマット(テキストファイル)で記述することによって、配列や連想配列に変換できて容易に管理できます。
+					- [JavaScriptのJSONを理解してデータを活用できるようにしよう](https://techplay.jp/column/611)
 			- ファイル設計書
 				- [ファイル設計書 - サンプル](https://www.kk-kano.jp/info/doc/%E8%AB%8B%E6%B1%82%EF%BD%B1%EF%BD%AF%EF%BE%8C%EF%BE%9F%EF%BE%9B%EF%BD%B0%EF%BE%84%EF%BE%9E%EF%BC%88%E7%B0%A1%E6%98%93%E7%89%88%EF%BC%89.pdf)
     - (成果物)
-		- テーブル定義書
-		- ER図
-		- CRUD図
-		- 機能設計書
+		- DBMSを使用するチーム
+			- テーブル定義書
+			- ER図
+			- CRUD図
+			- 機能設計書
+		- DBMSを使用しないチーム
+			- 正規化したデータ
+			- ファイル設計書
 - [内部設計書テンプレート.zip](./files/内部設計書テンプレート.zip)
 - [内部設計書サンプル.zip](./files/内部設計書サンプル.zip)
 
