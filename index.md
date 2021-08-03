@@ -1,4 +1,4 @@
-# 課題解決型学習1
+# 課題解決型学習2
 
 # このページのURLは [https://bit.ly/3xxtE3X](https://bit.ly/3xxtE3X) です。
 
