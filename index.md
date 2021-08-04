@@ -8,6 +8,8 @@
 
 ## アイスブレーク
 
+---
+
 - [メイン講師紹介](https://tomo-tomo.ddns.net/profile/)
 - [サブ講師紹介](https://dandydot.no-ip.biz/~dot/presen/profile/)
 - [自己紹介](https://dandydot.no-ip.biz/~dot/presen/self-introduction/)
@@ -15,6 +17,8 @@
 - [web-timer](https://web-timer-vue.herokuapp.com)
 
 ## 講義の説明
+
+---
 
 - 目的
     - 課題解決型学習を通して社会人基礎力を身につける
@@ -59,6 +63,9 @@
         - ![タスクの関係の例](images/task-flow-example.png)
 
 ## スケジュール
+
+---
+
 - [チーム計画](#team-plan)
     - 株式会社オーシーシーの紹介
     - 企画立案①：課題（ニーズ）に対応した企画立案＆チーム編成
