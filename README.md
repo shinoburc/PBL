@@ -12,4 +12,4 @@ $ ./gen_html.sh
 Deploy Site
 ------------------------------
 
-[課題解決型学習](https://tomo-tomo.ddns.net/PBL-Lecture/)
+[課題解決型学習](https://dandydot.no-ip.biz/~dot/presen/PBL)

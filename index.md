@@ -10,8 +10,11 @@
 
 ---
 
-- [メイン講師紹介](https://tomo-tomo.ddns.net/profile/)
+<!--
+- [メイン講師紹介]()
 - [サブ講師紹介](https://dandydot.no-ip.biz/~dot/presen/profile/)
+-->
+
 - [自己紹介](https://dandydot.no-ip.biz/~dot/presen/self-introduction/)
 - [オープナ](https://dandydot.no-ip.biz/~dot/presen/opener/)
 - [web-timer](https://web-timer-vue.herokuapp.com)
