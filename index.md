@@ -4,7 +4,7 @@
 
 ## 株式会社OCCの紹介
 
-<iframe src="https://onedrive.live.com/embed?cid=269CDB82062F0E89&resid=269CDB82062F0E89%213293&authkey=APqco-anevVOfUY&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=8644A86B4C012FF7&resid=8644A86B4C012FF7%21149&authkey=AMB_qaEJX7zCYjY&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
 
 ## アイスブレーク
 
