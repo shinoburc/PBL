@@ -1,6 +1,6 @@
 # 課題解決型学習
 
-# このページのURLは [https://bit.ly/3xxtE3X](https://bit.ly/3xxtE3X) です。
+# このページのURLは [https://onl.tw/HWcmkZd](https://onl.tw/HWcmkZd) です。
 
 ## 株式会社OCCの紹介
 
