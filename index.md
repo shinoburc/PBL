@@ -2,6 +2,8 @@
 
 # このページのURLは [https://onl.tw/HWcmkZd](https://onl.tw/HWcmkZd) です。
 
+# このコンテンツは [https://github.com/shinoburc/PBL](https://github.com/shinoburc/PBL)で管理しています。
+
 ## 株式会社OCCの紹介
 
 <iframe src="https://onedrive.live.com/embed?cid=8644A86B4C012FF7&resid=8644A86B4C012FF7%21149&authkey=AMB_qaEJX7zCYjY&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
