@@ -283,6 +283,8 @@
 
 </a>
 
+[(参考) システム開発の難しさ](https://nyumon-info.com/column/bl01.html)
+
 - 開発プロセスの例
 
 <img src="images/general_development_model.png" width=90%>
@@ -290,23 +292,29 @@
 - 外部設計とは、要件定義の次に行われる開発工程のことです。
     - 外部設計を通して、ユーザ・お客様とチームの共通認識ができるようになる。
 
-<img src="images/what_is_external.png" width=70%>
 
 - 何が「外部」なのか?
 	- 開発対象システムの外側とのやり取りに必要な情報を、外部設計で設計・定義していきます。
+
+<img src="images/what_is_external.png" width=70%>
 
 - 必要な機能と画面を洗い出す方法
     1. 「情報定義書」からカテゴリ分けした情報がどのように状態遷移するか決定する
     1. 情報を状態遷移させるのが「機能」であり「画面」になる
         - 機能とはITを使ってペルソナの要望を満たす手段
+        <br/> <br/>
         - 情報モデルの状態遷移(LINEの例)
         - ![情報モデルの状態遷移のLINEの例](images/line-information-state.png)
+        <br/> <br/> <hr/> <br/> <br/>
         - 情報モデルの状態遷移(プロバイダ申し込み情報の例)
         - ![情報モデルの状態遷移のプロバイダ申し込み情報の例](images/InformationModelStateMachine02.png)
+        <br/> <br/> <hr/> <br/> <br/>
         - 情報モデルの状態遷移(CRUD: Create Read Update Delete)
         - ![情報モデルの状態遷移](images/InformationModelStateMachine.png)
+        <br/> <br/> <hr/> <br/> <br/>
         - 情報モデルの状態遷移(駐車場と空き状況情報の例)
         - ![駐車場と空き状況の状態遷移](images/InformationModelStateMachineParking.png)
+        <br/> <br/>
                          
 - (演習)
     - (タスク)
