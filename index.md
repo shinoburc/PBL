@@ -416,8 +416,8 @@
 			- テーブル定義書
 			- ER図
 				- ER図作成ツール
-          - [Lucidchart](https://www.lucidchart.com/pages/ja)
-					- [a5m2](https://a5m2.mmatsubara.com/)
+				 	- [Lucidchart](https://www.lucidchart.com/pages/ja)
+				 	- [a5m2](https://a5m2.mmatsubara.com/)
 			- CRUD図
 			- 機能設計書
 		- DBMSを使用しない場合
