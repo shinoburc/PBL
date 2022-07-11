@@ -424,10 +424,11 @@
 			- 機能設計書
 		- DBMSを使用しない場合
 			- 正規化したデータ
-				- [JSON](https://ja.wikibooks.org/wiki/JSON) フォーマット(テキストファイル)で記述することによって、配列や連想配列に変換できて容易に管理できます。
+				- (例) [JSON](https://ja.wikibooks.org/wiki/JSON) フォーマット(テキストファイル)で記述することによって、配列や連想配列に変換できて容易に管理できます。
 					- [JavaScriptのJSONを理解してデータを活用できるようにしよう](https://techplay.jp/column/611)
 			- ファイル設計書
 				- [ファイル設計書 - サンプル](https://www.kk-kano.jp/info/doc/%E8%AB%8B%E6%B1%82%EF%BD%B1%EF%BD%AF%EF%BE%8C%EF%BE%9F%EF%BE%9B%EF%BD%B0%EF%BE%84%EF%BE%9E%EF%BC%88%E7%B0%A1%E6%98%93%E7%89%88%EF%BC%89.pdf)
+			- 機能設計書
     - (成果物)
 		- DBMSを使用するチーム
 			- テーブル定義書
@@ -437,6 +438,7 @@
 		- DBMSを使用しないチーム
 			- 正規化したデータ
 			- ファイル設計書
+			- 機能設計書
 - [内部設計書テンプレート.zip](./files/内部設計書テンプレート.zip)
 - [内部設計書サンプル.zip](./files/内部設計書サンプル.zip)
 
