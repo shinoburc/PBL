@@ -418,8 +418,9 @@
 			- テーブル定義書
 			- ER図
 				- ER図作成ツール
-				 	- [Lucidchart](https://www.lucidchart.com/pages/ja)
-				 	- [a5m2](https://a5m2.mmatsubara.com/)
+				 	  - [drawio](https://app.diagrams.net/)
+				 	  - [Lucidchart](https://www.lucidchart.com/pages/ja)
+				 	  - [a5m2](https://a5m2.mmatsubara.com/)
 			- CRUD図
 			- 機能設計書
 		- DBMSを使用しない場合
@@ -527,8 +528,8 @@
     - 機械学習モデル作成ツール
         - [Lobe](https://www.lobe.ai/)
     - 参考
-        - [JavaScript DOM の説明](./JavaScript-DOM)
-        - [Monacaサンプルアプリの改変例](./monaca)
+        - [JavaScript DOM の説明](../JavaScript-DOM)
+        - [Monacaサンプルアプリの改変例](../monaca)
         - [jQuery](http://jquery.com/)
             - [jQueryでクリックやエンター入力のイベントを処理する例](jquery)
 
